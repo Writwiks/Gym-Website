@@ -1,0 +1,112 @@
+ /* CSS Reset */
+ body {
+    font-family: DM Serif Display;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/pexels-victor-freitas-791763.jpg);
+
+}
+
+.left {
+    line-height: 25px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.mid {
+    display: block;
+    width: 700px;
+    margin: 23px auto;
+    /* border: 2px solid yellow; */
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    top: 34px;
+    /* border: 2px solid green; */
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 40px;
+}
+
+.navbar li a:hover,
+.navbar li a.Active {
+    text-decoration: underline;
+    color: #b19e9e;
+}
+
+.left img {
+    width: 160px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    font-family: DM Serif Display;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 3px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: grey;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 150px 20px;
+    padding: 70px 50px;
+    border-radius: 35px;
+    width: 620px;
+}
+
+.form input {
+    font-family: DM Serif Display;
+    text-align: center;
+    display: block;
+    width: 500px;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 2px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 25%;
+    margin: auto;
+}
